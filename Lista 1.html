@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de exercício</title>
+</head>
+<body>
+<section><img src="5.png" alt="Logo do html5">
+    <h1>Primeira aula de html</h1>
+    <h2>Introdução a linguagem html</h2>
+    <h3>HTML=Hypertext markup language</h3>
+    <h4>A linguagem html é uma linguagem de marcação</h4>
+    <h5>Para as marcações são utilizadas tags</h5>
+    <h6>É como se fosse o esqueleto do site</h6>
+</section>
+<hr>
+<section><h3>Lista não ordenada:</h3>
+<ul style="list-style-type:square;">
+    <li>Café</li>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Açucar</li>
+</ul>
+</section>
+<hr>
+<section><h3>Lista ordenada:</h3>
+<ol>
+    <li>Estudar html</li>
+    <li>Fazer a lista 1</li>
+    <li>Estudar python</li>
+    <li>Fazer a lista 3 de python</li>
+    <li>Fazer a lista de matemática discreta</li>
+</ol>
+</section>
+<hr>
+<section><h3>Links</h3>
+    <h4>Link interno</h4>
+<a href="projeto.html">Link para a página do primeiro projeto</a> 
+ou 
+<a href="projeto.html"
+title="Primeiro projeto">Projeto</a>
+<h4>Link externo</h4>
+<a href="https://siga.cps.sp.gov.br/aluno/login.aspx?">Site Siga</a>
+</section>
+<hr>
+<section><h3>Formulário</h3>
+    <form>
+        <p>Nome:<input type=text name=nome/></p>
+        <p>Data de nascimento:<input type="text" name="nascimento" size="8"/></p>
+        <p>Série:<select name="série">
+            <option valeu="">Série em que estuda</option>
+            <option value="1">1ª série</option>
+            <option value="2">2ª série</option>
+            <option value="3">3ª série</option>
+        </select></p>
+        <p>Senha:<input type=password name=senha size="15" maxlength="8"/></p>
+        <input type="submit" name="enviar" value="Enviar"/>
+    </form>
+</section>
+<hr>
+<section><h3>Tabela</h3>
+<table border="1">
+    <tr>
+        <caption>Carros e seus preços</caption>
+    </tr>    
+    <thead>
+        <tr>
+            <th colspan="5">Carros</th>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td rowspan="4">Dados</td>
+    </tr>
+    <tr>
+        <td>Marca:</td>
+        <td>Modelo:</td>
+        <td>Ano:</td>
+        <td>Valor:</td>
+    </tr>
+    <tr>
+        <td>Volkswagen</td>
+        <td>Golf</td>
+        <td>2009</td>
+        <td>R$38.500</td>
+    </tr>
+    <tr>
+        <td>Fiat</td>
+        <td>Palio</td>
+        <td>2010</td>
+        <td>R$19.700</td>
+    </tr>
+    </tbody>
+</table>
+</section>
+<hr>
+<section><h3>Áudio</h3>
+    <audio controls="controls">
+    <source src="pagodinho.mp3" type="audio/mp3"/>
+    </audio>
+</section>
+<hr>
+<section>
+    <video width="160" height="284" controls="controls">
+    <source src="video.mp4" type="video/mp4"/>
+    </video>
+</section>
+<hr>
+<section>
+    <iframe width="363" height="204" src="https://www.youtube.com/watch?v=YO58tXerKDc"></iframe>
+</section>
+</body>
+</html>
